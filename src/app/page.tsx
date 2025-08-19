@@ -64,7 +64,7 @@ export default function Home() {
             <div className="flex-1 flex justify-center">
               <div className="bg-gray-200 border-2 border-dashed rounded-xl w-48 h-48 md:w-56 md:h-56 flex items-center justify-center">
                 <span className="inline-block">
-                  <img src="/img/profile.jpg" alt="Profile Image" />
+                  <img src="/img/profile2.jpg" alt="Profile Image" />
                 </span>
               </div>
             </div>
