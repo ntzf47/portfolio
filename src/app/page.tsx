@@ -157,7 +157,7 @@ export default function Home() {
             </Link>
 
             <Link
-              href="https://www.instagram.com/ntz_me_n/"
+              href="https://www.instagram.com/leo_not_zzz/"
               target="_blank"
               className="flex flex-col items-center p-6 rounded-xl bg-gray-50 hover:bg-pink-500 hover:text-white transition-all duration-300 w-40"
             >
