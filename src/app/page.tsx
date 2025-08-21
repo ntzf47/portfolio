@@ -276,7 +276,7 @@ export default function Home() {
               </p>
             </Link>
             <Link
-              href="https://instagram.com/yourusername"
+              href="https://www.instagram.com/leo_not_zzz/"
               className="group flex flex-col items-center text-center"
             >
               <div className="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mb-6 group-hover:bg-pink-600 transition-colors duration-300">
