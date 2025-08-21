@@ -31,3 +31,61 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer components {
+  .card-hover {
+    @apply transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl;
+  }
+  
+  .social-card {
+    @apply flex flex-col items-center p-8 rounded-2xl bg-white hover:text-white transition-all duration-500 w-48 shadow-xl hover:shadow-2xl transform hover:-translate-y-2 border border-gray-100;
+  }
+  
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold text-gray-800 mb-4;
+  }
+  
+  .section-divider {
+    @apply w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full;
+  }
+}
+
+/* Custom animations */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #3b82f6, #8b5cf6);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #2563eb, #7c3aed);
+}
